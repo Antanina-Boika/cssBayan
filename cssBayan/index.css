@@ -30,6 +30,10 @@ hr {
   display: inline;
 }
 
+i {
+  transition: all 1s;
+}
+
 .acc-input:checked ~ label i {
   transform: rotate(45deg);
 }
