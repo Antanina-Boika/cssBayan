@@ -1,8 +1,23 @@
 .acc-container {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
-  padding: 20px;
-  background-color: rgb(179, 176, 176);
+  padding: 10px 70px;
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 20px;
+}
+
+hr {
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.label {
+  display: block;
+  font-weight: 800;
+  font-size: 20px;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -12,7 +27,16 @@
   margin: 0 auto;
   height: 0;
   overflow: hidden;
-  transition: 0.5s;
+  transition: all 1s;
+}
+
+.acc-input:checked ~ .mem-img {
+  padding: 10px;
+  height: auto;
+}
+
+.acc-input:checked ~ .label {
+  color: black;
 }
 
 .acc-input {
@@ -25,4 +49,10 @@
 
 .acc-container:hover {
   color: black;
+}
+
+.bayan-title {
+  color: black;
+  font-size: 54px;
+  font-weight: 800;
 }
