@@ -1,0 +1,28 @@
+.acc-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(179, 176, 176);
+  cursor: pointer;
+}
+
+.mem-img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.acc-input {
+  display: none;
+}
+
+.acc-container {
+  color: blue;
+}
+
+.acc-container:hover {
+  color: black;
+}
