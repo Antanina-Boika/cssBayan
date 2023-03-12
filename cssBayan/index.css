@@ -14,11 +14,24 @@ hr {
 }
 
 .label {
-  display: block;
   font-weight: 800;
   font-size: 20px;
   width: 100%;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa {
+  display: none;
+}
+
+.acc-container:hover .fa {
+  display: inline;
+}
+
+.acc-input:checked ~ label i {
+  transform: rotate(45deg);
 }
 
 .mem-img {
